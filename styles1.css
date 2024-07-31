@@ -1,0 +1,38 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container > div {
+   background-color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+    height: 600px;
+}
+img{
+    width: 180px;
+    height: 250px;
+    margin-bottom: 0;
+}
+header{
+    background-image: linear-gradient(to bottom, #606676 40%, transparent 200%);
+    font-size: 60px;
+    font-family: cursive;
+}
+h4{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #bcd27f 20%, transparent 100%);
+    padding: 21%;
+    margin-top: 0%;
+    font-family: cursive;
+}
+p{
+    width: 160px;
+    word-wrap: break-word;
+    padding: 5%;
+}
+button{
+    margin: auto;
+    display: block;
+    background-color: cadetblue;
+    padding: 7%;
+}
